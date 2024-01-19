@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import VisualMemoryPage from "./assets/pages/VisualMemoryPage";
 import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
-import Header from "./assets/components/main/header";
+import Header from "./assets/components/main/Header";
 import Home from "./assets/pages/Home";
 
 function App() {
