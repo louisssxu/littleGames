@@ -7,7 +7,7 @@ function Home() {
       <Preview
         name={"Visual Memory game"}
         path={"/VisualMemory"}
-        img={"src/assets/img/VisualMemoryGame.png"}
+        img={"VisualMemoryGame.png"}
       ></Preview>
     </div>
   );
