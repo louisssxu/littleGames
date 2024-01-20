@@ -7,6 +7,10 @@
   display: inline-block;
 }
 
+.preview-box:hover {
+  transform: scale(1.01);
+}
+
 .preview-img {
   aspect-ratio: 1/1;
   height: 100%;
