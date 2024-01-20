@@ -1,0 +1,23 @@
+.preview-box {
+  border: solid 2px black;
+  border-radius: 5px;
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.preview-img {
+  aspect-ratio: 1/1;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}

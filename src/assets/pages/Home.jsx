@@ -1,10 +1,14 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Preview from "../components/main/Preview";
 
 function Home() {
   return (
     <div className="page">
-      <Link to="/VisualMemory">Visual Memory Game</Link>
+      <Preview
+        name={"Visual Memory game"}
+        path={"/VisualMemory"}
+        img={"src/assets/img/VisualMemoryGame.png"}
+      ></Preview>
     </div>
   );
 }
