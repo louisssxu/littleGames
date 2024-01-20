@@ -9,6 +9,10 @@ function Home() {
         path={"/VisualMemory"}
         img={"VisualMemoryGame.png"}
       ></Preview>
+
+      <span>
+        <h1 className="message">more games to come!</h1>
+      </span>
     </div>
   );
 }
